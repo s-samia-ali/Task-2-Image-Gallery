@@ -4,22 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lightbox.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
+
     <title>Image Gallery---Samia</title>
 </head>
 <body>
-    <div class="overlay"></div>
-    <div class="imgoverlay">
-        <!-- <img src="./images/tikka.jpg -->
+    <div class="heading">
+        <h1>Image Gallery ----LightBox</h1>
     </div>
     <div class="container">
         <div class="gallery">
-            <img src="./images/burger.avif" alt="">
-            <img src="./images/waffle.jpg" alt="">
-            <img src="./images/speghetti.jpg" alt="">
-            <img src="./images/tikka.jpg" alt="">
-            <img src="./images/karahi.jpg" alt="">
-            <img src="./images/tacos.avif" alt="">
+
+            <a href="./images/burger.avif" data-lightbox="models" data-title="Caption1">
+                <img src="./images/burger.avif" alt="burger">
+            </a>
+
+            <a href="./images/waffle.jpg" data-lightbox="models" data-title="Caption2">
+                <img src="./images/waffle.jpg" alt="waffle">
+            </a>
+
+            <a href="./images/coffee.avif" data-lightbox="models" data-title="Caption3">
+                <img src="./images/coffee.avif" alt="karahi">
+            </a>
+
+            <a href="./images/pizza.avif" data-lightbox="models" data-title="Caption4">
+                <img src="./images/pizza.avif" alt="tacos">
+            </a>
+
+            <a href="./images/speghetti.jpg" data-lightbox="models" data-title="Caption5">
+                <img src="./images/speghetti.jpg" alt="speghetti">
+            </a>
+
+            <a href="./images/tacos.avif" data-lightbox="models" data-title="Caption6">
+                <img src="./images/tacos.avif" alt="tikka">
+            </a>
+
+            <a href="./images/karahi.jpg" data-lightbox="models" data-title="Caption7">
+                <img src="./images/karahi.jpg" alt="karahi">
+            </a>
+
+            <a href="./images/tikka.jpg" data-lightbox="models" data-title="Caption8">
+                <img src="./images/tikka.jpg" alt="tikka">
+            </a>
+
         </div>
     </div>
+
+    <script src="lightbox-plus-jquery.js"></script>
 </body>
 </html>
